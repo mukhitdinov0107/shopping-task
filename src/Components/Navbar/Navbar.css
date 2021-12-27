@@ -1,0 +1,65 @@
+.Navbar{
+    width: 100%;
+}
+.upbar{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+.search{
+    width: 50%;
+    height: 20px;
+    outline: none;
+}
+.logo{
+    margin-top: 10px;
+}
+.icon{
+    cursor: pointer;
+    color: #484D6B;
+}
+.icon:hover{
+    text-decoration: underline;
+}
+.downbar{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+.downbar_items{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.downbar_items li a{
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.downbar_items li a:hover{
+    color: #F05B01;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.downbar_items li a::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    width: 0%;
+    height: 5px;
+    background: #F05B01;
+    transition: 0.4s ease-out;
+}
+.downbar_items li a:hover::after{
+    left: 0;
+    width: 100%;
+}
