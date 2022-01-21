@@ -1,17 +1,12 @@
 import "./Card.css"
-import Cards from "./Cards";
-function Card(){
-    return(
-        <div className={"card_block"}>
-<Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-            <Cards/><Cards/><Cards/><Cards/><Cards/><Cards/>
-        </div>
-    );
-}
+import Cards from "./Cards"
 
-export default Card
+function cardBlock(){
+    return(
+        <div className="card_block">
+                <Cards/> 
+        </div>
+   
+    )
+}
+export default cardBlock

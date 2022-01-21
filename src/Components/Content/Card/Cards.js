@@ -1,21 +1,14 @@
 import "./Card.css"
+import CardClass from "./CardClass/CardClass";
 
 function Cards() {
-    return(
-        <div className="card">
-            <img width={133} height={112} src="" alt=""/>
-            <h5> LAPTOP StrIX</h5>
-            <div className="d-flex justify-between align-senter">
-                <div className="d-flex flex-column">
-                    <span> Стоимость: </span>
-                    <b>00000</b>
-                </div>
-                <button className="button">
-                    <i className="far fa-plus-square"/>
-                </button>
-            </div>
+    let cardItems = require("../../../utils/cardItems.json")
+
+    return (cardItems && cardItems.map(cardItem =>
+        <div className={"cards_block"}>
+            <CardClass data={cardItem}/>
         </div>
-    )
+    ));
 }
 
 export default Cards

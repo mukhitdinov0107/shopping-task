@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Мужские Кроссовки Nike Blazer Mid Suede",
+    "price": 12999,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Мужские Кроссовки Nike Air Max 270",
+    "price": 15600,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Мужские Кроссовки Nike Blazer Mid Suede",
+    "price": 8499,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Кроссовки Puma X Aka Boku Future Rider",
+    "price": 8999,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Кроссовки Future Rider",
+    "price": 16999,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Кроссовки Black Edition",
+    "price": 16999,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Кроссовки Orange Boomb Edition",
+    "price": 7499,
+    "buttonUrl": "/img/plus.svg",
+    "checkedUrl": "/img/checked.svg",
+    "imageUrl": "https://ru.store.asus.com/image/cache/catalog/notebooks/ROG%2BStrix/G533/with_numpad/G533_with_numpad_2-470x470.jpg"
+  }
+]

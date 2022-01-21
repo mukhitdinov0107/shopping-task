@@ -39,6 +39,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+.downbar_items li{
+    list-style: none;
+}
 .downbar_items li a{
     position: relative;
     text-decoration: none;
@@ -52,10 +55,10 @@
 .downbar_items li a::after{
     content: '';
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     left: 50%;
     width: 0%;
-    height: 5px;
+    height: 3px;
     background: #F05B01;
     transition: 0.4s ease-out;
 }
